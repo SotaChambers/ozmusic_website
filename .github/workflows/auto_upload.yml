@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Sync files
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
+        # uses: SamKirkland/FTP-Deploy-Action@4.1.0
         with:
           server: ${{ secrets.FTP_SERVER }}
           # username: ${{ secrets.FTP_USERNAME }}
